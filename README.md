@@ -34,42 +34,41 @@ Create a .env file in the project root directory and add the necessary environme
    source venv/bin/activate
 
 6. Navigate to the Project Directory
-
   Change your directory to the project folder:
 
-   ```bash
-   cd social_media
+      ```bash
+      cd social_media
 
 7. Switch to the main Branch
 Make sure you are on the main branch:
 
-    ```bash
-    git checkout master
+       ```bash
+       git checkout master
 
 8. Install Dependencies
 Install the project dependencies using pip:
 
-    ```bash
-    pip install -r requirements.txt
+       ```bash
+       pip install -r requirements.txt
 
 9. Apply Migrations
 Run the following commands to apply database migrations:
 
-    ```bash
-    python manage.py makemigrations
-    python manage.py migrate
+       ```bash
+       python manage.py makemigrations
+       python manage.py migrate
 
 10. Create a Superuser
 Create a superuser account to access the admin panel:
 
-    ```bash
-    python manage.py createsuperuser
+       ```bash
+       python manage.py createsuperuser
 
 9. Run the Development Server
 Start the development server:
 
-    ```bash
-    python manage.py runserver
+       ```bash
+       python manage.py runserver
 
 10. import the `Social  Media.postman_collection.json` in Postman . 
 
