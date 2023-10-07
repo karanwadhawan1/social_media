@@ -29,41 +29,46 @@ Follow these steps to set up the project on your local system.
 4. Create the Environment File
 Create a .env file in the project root directory and add the necessary environment variables. You can copy the example.env file and modify it as needed.
 
-    python -m venv venv
-    source venv/bin/activate
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
 
-5. Navigate to the Project Directory
+6. Navigate to the Project Directory
 
-   Change your directory to the project folder:
+  Change your directory to the project folder:
 
    ```bash
    cd social_media
 
-6. Switch to the main Branch
+7. Switch to the main Branch
 Make sure you are on the main branch:
 
-    
+    ```bash
     git checkout master
 
-7. Install Dependencies
+8. Install Dependencies
 Install the project dependencies using pip:
 
+    ```bash
     pip install -r requirements.txt
 
-8. Apply Migrations
+9. Apply Migrations
 Run the following commands to apply database migrations:
-    
+
+    ```bash
     python manage.py makemigrations
     python manage.py migrate
 
-9. Create a Superuser
+10. Create a Superuser
 Create a superuser account to access the admin panel:
 
+    ```bash
     python manage.py createsuperuser
 
 9. Run the Development Server
 Start the development server:
 
+    ```bash
     python manage.py runserver
 
 10. import the `Social  Media.postman_collection.json` in Postman . 
